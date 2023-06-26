@@ -1,4 +1,7 @@
 {
-    "update" : 1.3,
-    "news" : "Были добавлены оповещения об обновлениях."
+    "players" : {
+        "Petr_Petr" : "Supreme",
+        "Alex_Alex" : "VIP",
+        "Sergey_Sergey" : "Hardy"
+    }
 }
