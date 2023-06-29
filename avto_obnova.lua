@@ -1,5 +1,5 @@
 script_name("avto_obnova.lua")
-script_version("29.06.2023")
+script_version("30.06.2023")
 
 
 local enable_autoupdate = true
@@ -39,7 +39,7 @@ local newFrame = imgui.OnFrame(
         imgui.SetNextWindowPos(imgui.ImVec2(resX / 2, resY / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
         imgui.SetNextWindowSize(imgui.ImVec2(sizeX, sizeY), imgui.Cond.FirstUseEver)
         imgui.Begin('Main Window', renderWindow)
-            imgui.Text(u8'ýòî âåðñèÿ 222')
+            imgui.Text(u8'Это версия 333')
         imgui.End()
     end
 )
